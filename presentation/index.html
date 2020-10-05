@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+
+        <title>reveal.js</title>
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/reveal.css" />
+        <link rel="stylesheet" href="css/theme/black.css" />
+        <link rel="stylesheet" href="css/mystyles.css" />
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/monokai.css" />
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? "css/print/pdf.css"
+                : "css/print/paper.css";
+            document.getElementsByTagName("head")[0].appendChild(link);
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown>
+                    <textarea data-template>
+                        <div id="profile-img-container">
+                            <img id="profile-img" width="128" height="144" src="assets/profile.png" />
+                            <div id="profile-info">
+                                <span id="name">Asle Berge</span>
+                                <p>05.10.2020</p>
+                            </div>
+                        </div>
+                        <img src="assets/sanity_logo.png" />
+                        <h4>Unngå å gå mistet vettet med <span id="sanity">Sanity CMS</span></h4>
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <h2>Hva er Sanity?</h1>
+                        <ul>
+                            <li>Et Content Managment System (CMS)</li>
+                            <li>Hodeløst</li>
+                            <li>En plass å lagre og redigere innhold</li>
+                        </ul>
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <h1>*Masse logoer av andre CMSer*</h1>
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <h1>Hva er Sanity Studio?</h1>
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        Sanity Data Store
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                            <p>Spørsmål?</p>
+                        </textarea
+                    >
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                            Takk for meg 😁   
+                        </textarea
+                    >
+                </section>
+            </div>
+        </div>
+
+        <script src="js/reveal.js"></script>
+
+        <script type="application/javascript">
+            Reveal.initialize({
+                hash: true,
+                controls: false,
+                slideNumber: true,
+                dependencies: [
+                    { src: "plugin/markdown/marked.js" },
+                    { src: "plugin/markdown/markdown.js" },
+                    { src: "plugin/highlight/highlight.js" },
+                    { src: "plugin/notes/notes.js", async: true },
+                ],
+            });
+        </script>
+    </body>
+</html>

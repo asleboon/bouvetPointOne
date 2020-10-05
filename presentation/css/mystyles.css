@@ -1,0 +1,21 @@
+#sanity {
+    color: red;
+}
+
+#profile-img-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    transform: rotate(-15deg);
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#profile-info {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem;
+}
