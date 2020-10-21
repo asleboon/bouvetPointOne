@@ -7,7 +7,7 @@
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
 
-        <title>reveal.js</title>
+        <title>Sanity CMS</title>
 
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/reveal.css" />
@@ -31,7 +31,7 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <section data-markdown>
+                <!-- <section data-markdown>
                     <textarea data-template>
                         <div id="profile-img-container">
                             <img id="profile-img" width="128" height="144" src="assets/profile.png" />
@@ -43,34 +43,111 @@
                         <img src="assets/sanity_logo.png" />
                         <h4>Unngå å gå mistet vettet med <span id="sanity">Sanity CMS</span></h4>
                     </textarea>
+                </section> -->
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <img class="full-view" src="./assets/frontpage.png" />
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        <img class="full-view" src="./assets/info_foredrag.png" />
+                    </textarea>
                 </section>
 
                 <section data-markdown>
                     <textarea data-template>
-                        <h2>Hva er Sanity?</h1>
+                        <h2>Hva er et CMS?</h1>
                         <ul>
-                            <li>Et Content Managment System (CMS)</li>
-                            <li>Hodeløst</li>
-                            <li>En plass å lagre og redigere innhold</li>
+                            <li>Innholdsstyringssystem</li>
+                            <li>System for å opprette og redigere innhold.</li>
+                            <li>Monolit - Alt i et system.</li>
+                            <li>Decoupled - Tilbyr API for å hente ut innhold.</li>
+                            <li>Headless - Kun innhold tilgjengelig via API'et.</li>
+                            <li>Eksempler: Wordpress, Contenful, Prismic, Episerver</li>
                         </ul>
                     </textarea>
                 </section>
 
                 <section data-markdown>
                     <textarea data-template>
-                        <h1>*Masse logoer av andre CMSer*</h1>
+                        <h2>Hva er Sanity?</h2>
+                        <ul>
+                            <li>Headless CMS.</li>
+                            <li>Sanity Studio.</li>
+                            <li>API'er for å hente ut innhold.</li>
+                            <li>Sanity CLI til å gjøre utføre forskjellige oppgaver.</li>
+                        </ul>
                     </textarea>
                 </section>
 
                 <section data-markdown>
                     <textarea data-template>
-                        <h1>Hva er Sanity Studio?</h1>
+                        <h2>Sanity Studio</h2>
+                        <ul>
+                            <li>Et React app som fungerer som et redaktør grensesnitt.</li>
+                            <li>Muligheter for å tilpasse grensesnittet med egen kode eller plugins.</li>
+                            <li>Kan hostes hos Sanity på valggfri adress <code><strong>navn</strong>.sanity.studio</code> 
+                                eller den kan hostes hvor du foretrekker å hoste react apper.</li>
+                        </ul>
                     </textarea>
                 </section>
 
                 <section data-markdown>
                     <textarea data-template>
-                        Sanity Data Store
+                        <h2>Data store</h2>
+                        <ul>
+                            <li>Prosjekter og dataset</li>
+                            <li>GROQ / GraphQL</li>
+                            <li>API klienter - PHP, .NET og Javascript</li>
+                            <li><strong>projectId.api.sanity.io | projectId.apicdn.sanity.io</strong></li>
+                        </ul>
+                    </textarea>
+                </section>
+
+                <section>
+                    <h2>Kommme ingang med Sanity</h2>
+                    <pre><code data-trim data-noescape>
+                        npm install -g @sanity/cli # Installer Sanity CLI
+                    </code></pre>
+                    <img height="400" src="/assets/sanity_init.png" />
+                    <!-- <pre><code data-trim data-noescape>
+                        sanity init # Opprett nytt prosjekt
+                    </code></pre>
+                    <pre><code data-trim data-noescape>
+                        sanity login # Logg inn på din konto
+                    </code></pre>
+                    <pre><code data-trim data-noescape>
+                        sanity manage # Åpne sanity admin side
+                    </code></pre>
+                    <pre><code data-trim data-noescape>
+                        sanity deploy # Publisert studio
+                    </code></pre> -->
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <h2>DEMO! 🙌</h2>
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <h2>Lyse sine nye nettsider</h2>
+                        <img src="assets/lyse_demo_sanity.png" />
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <img src="assets/lyse_demo_page_1.png" />
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        <img src="assets/lyse_demo_page_2.png" />
                     </textarea>
                 </section>
 
